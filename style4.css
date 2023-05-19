@@ -1,0 +1,99 @@
+body{
+    background-color:white;
+    position: relative;
+  }
+  p{
+  color:black;
+  
+  }
+  .right
+  {
+    width:35%;
+    margin-top:10px;
+    position:fixed;
+    float:right;
+    right:30px;
+  }
+  .right .profile-title
+  {
+  display: flex;
+  align-items:center;
+  }
+  .right .profile-title .profile-left
+  {
+    display:flex;
+    align-items:center;
+    margin-right:40px;
+  }
+  .right .profile-title .profile-left .image img
+  {
+  border-radius:50%;
+  margin-right:15px;
+  width:43px;
+  height:43px;
+  }
+  .right .profile-title .profile-left .details .name
+  {
+    padding-bottom: 2px;
+    line-height:1px;
+  
+  }
+  
+  .right .profile-title .profile-left .details .nickname
+  {
+    line-height:1px;
+    font-size:10px;
+    color:grey;
+  }
+  .right .profile-title .profile-right p
+  {
+  color:blue;
+  margin-left:50px;
+  cursor:pointer;
+  }
+  .suggestions
+  {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom:15px;
+  }
+  .suggestions p{
+    margin-right: 90px;
+  }
+  .suggestions-title{
+    display:flex;
+    align-items:center;
+    margin-bottom: 10px;
+  }
+  .suggestions-title .suggestion-left
+  {
+    display:flex;
+    align-items:center;
+    margin-right:60px;
+  }
+  .suggestions-title .suggestion-left .image img{
+    border-radius: 50%;
+    width:43px;
+    height:43px;
+    margin-right:15px;
+    object-fit: cover;
+  }
+  .suggestions-title .suggestion-left .details .name{
+    padding-bottom: 3px;
+    line-height:1px;
+    margin-right: 5px;
+  }
+  .suggestions-title .suggestion-left .details .nickname
+  {
+    line-height:1px;
+    font-size:10px;
+    color:grey;
+  }
+  .suggestions-title .suggestion-right p{
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:50px;
+    
+    
+   cursor:pointer;
+  }

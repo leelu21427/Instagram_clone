@@ -1,0 +1,46 @@
+body{
+    background-color:white;
+    color:black;
+}
+span{
+    float: left;
+    margin: 10px;
+}
+h3{
+    margin-top: 10px;
+    font-family: arial;
+    font-weight: lighter;
+}
+img{
+    width: 150px;
+    height: 50px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 3px;
+}
+#ab{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+#ab1{
+    margin-left: 60px;
+}
+.navbarbg{
+    background-color: black;
+}
+.search{
+    display: none;
+}
+
+.full{
+    line-height: 15px;
+}
+.full .home{
+    color:blue;
+
+}
